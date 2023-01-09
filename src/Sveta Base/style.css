@@ -87,6 +87,8 @@ h1 {
 h3 {
     font-size: 22px;
     font-weight: 700;
+    max-width: 275px;
+
 }
 
 .imgCard {
@@ -97,6 +99,13 @@ p span {
     font-weight: 700;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 94px;
+}
 
 a {
     color: #FFFFFF;
