@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 
 header {
     height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
 }
 
 header, footer {
@@ -38,23 +43,44 @@ header, footer {
     color: #FFFFFF;
 }
 
+section {
+    padding: 95px 0;
+
+}
+
 h1 {
     font-weight: 700;
     font-size: 44px;
-    text-align:center;
+    text-align: center;
+    margin-bottom: 70px;
 }
-.card{
+
+.card {
     background: #FFFFFF;
     border: 2px solid #E7E7E7;
     border-radius: 5px;
     padding: 46px 20px;
 }
-h3{
+
+h3 {
     font-size: 22px;
     font-weight: 700;
 }
-a{
+
+.imgCard {
+    margin: 40px 0 36px;
+}
+
+p span {
+    font-weight: 700;
+}
+
+a {
     color: #FFFFFF;
-    text-decoration:none;
+    text-decoration: none;
     text-transform: capitalize;
+}
+
+footer img {
+    margin-right: 10px;
 }
